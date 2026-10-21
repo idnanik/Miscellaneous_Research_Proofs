@@ -7,7 +7,7 @@ Let
 $$
 P_t =
 \begin{pmatrix}
-1-\dfrac{a}{t^{p}} & \dfrac{a}{t^{p}} \\[2ex]
+1-\dfrac{a}{t^{p}} & \dfrac{a}{t^{p}} \\
 \dfrac{b}{t^{p}} & 1-\dfrac{b}{t^{p}}
 \end{pmatrix},
 \qquad a,b>0,\; p>0,
@@ -48,7 +48,7 @@ $$
 that is,
 
 $$
-\delta_{n+1} = \delta_n\left(1-\frac{a+b}{(n+1)^{p}}\right). \tag{1}
+\delta_{n+1} = \delta_n\left(1-\frac{a+b}{(n+1)^{p}}\right). \qquad (1)
 $$
 
 ## Theorem 1
@@ -56,7 +56,7 @@ $$
 For the transition matrices defined above, the row difference is
 
 $$
-\delta_n = \delta_0\prod_{t=1}^{n}\left(1-\frac{a+b}{t^{p}}\right), \tag{2}
+\delta_n = \delta_0\prod_{t=1}^{n}\left(1-\frac{a+b}{t^{p}}\right), \qquad (2)
 $$
 
 where $Q_0=I$ and $\delta_0=1$.
